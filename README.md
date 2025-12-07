@@ -53,38 +53,10 @@ A API estará disponível em: http://localhost:8081/api/tarefas
 
 🧪 Testes (Endpoints)
 
-Método
-
-Endpoint
-
-Descrição
-
-POST
-
-/api/tarefas
-
-Cria uma nova tarefa
-
-GET
-
-/api/tarefas
-
-Lista todas as tarefas
-
-GET
-
-/api/tarefas/{id}
-
-Busca uma tarefa pelo ID
-
-PUT
-
-/api/tarefas/{id}
-
-Atualiza uma tarefa existente
-
-DELETE
-
-/api/tarefas/{id}
-
-Remove uma tarefa
+| Método | Endpoint (URL) | Descrição do Teste |
+| :--- | :--- | :--- |
+| **POST** | `/api/tarefas` | **Cadastrar:** Cria uma nova tarefa no sistema. |
+| **GET** | `/api/tarefas` | **Listar:** Mostra todas as tarefas salvas. |
+| **GET** | `/api/tarefas/{id}` | **Consultar:** Busca uma tarefa específica pelo número (ID). |
+| **PUT** | `/api/tarefas/{id}` | **Atualizar:** Altera os dados de uma tarefa existente. |
+| **DELETE** | `/api/tarefas/{id}` | **Remover:** Apaga uma tarefa do sistema. |
